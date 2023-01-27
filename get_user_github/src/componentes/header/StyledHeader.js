@@ -7,11 +7,12 @@ export const DivContainer = styled.div`
   box-sizing: border-box;
   gap: 1em;
   background-color: #161b22;
+  height: 15vh;
 
 `;
 
 export const DivIcons = styled.div`
-font-size:90px;
+font-size:50px;
 color: #ffff
 `;
 
