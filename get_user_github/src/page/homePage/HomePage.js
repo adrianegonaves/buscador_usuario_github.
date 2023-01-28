@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <DivContainer>
       <DivContainerInput>
-        <input placeholder="enter a username ..."></input>
+        <input type="text" placeholder="enter a username ..."></input>
         <Button type="button">
           <span></span>
           <span></span>

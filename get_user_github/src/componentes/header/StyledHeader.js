@@ -18,5 +18,5 @@ color: #ffff
 
 export const H1Title = styled.h1`
 color: #ffff;
-font-family: 'Roboto', sans-serif
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"
 `

@@ -9,7 +9,7 @@ export const DivContainer = styled.div`
   border-radius: 10px;
   width: 700px;
   height: 70vh;
-  background-color: #1b1726;
+  background-color: #161b22;
   /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
 `;
 export const DivUser = styled.div`
@@ -18,8 +18,9 @@ export const DivUser = styled.div`
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
+  border: 1px solid #30363d;
   /* border: 1px solid black; */
-  background-color: #717171;
+  background-color: #010409;
   width: 300px;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -65,16 +66,19 @@ export const DivContainerInput = styled.div`
   flex-direction: column;
 
   input {
-    padding: 10px 10px;
-    border-radius: 2rem;
-    background-color: #191622;
-    color: #fff;
-    text-align: center;
+    padding: 5px 12px;
+    background-color: #010409;
+    color: #f0f6fc;
     display: block;
     cursor: pointer;
     margin-bottom: 2rem;
-    font-size: 1.2rem;
     outline: none;
+    border: 1px solid #30363d;
+    width: 100%;
+    font-size: 14px;
+    /* overflow: visible; */
+line-height: 20px;
+transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
   }
 `;
 
@@ -92,6 +96,7 @@ export const Button = styled.button`
   border: 2px solid #d2bdff;
   transition: all 0.1s linear;
   background-color: transparent;
+  cursor: pointer;
 
   :hover {
     border: 1px solid transparent;
