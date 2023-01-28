@@ -9,7 +9,7 @@ import { DivContainer, DivIcons, H1Title } from './StyledHeader'
             <AiOutlineGithub/>
         </DivIcons>
         <div>
-            <H1Title>Buscar usuário no GitHub</H1Title>
+            <H1Title>User search on GitHub</H1Title>
         </div>
     </DivContainer>
   )
